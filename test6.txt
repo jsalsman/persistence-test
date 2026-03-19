@@ -1,1 +1,1 @@
-test4.txt and test5.txt are both untrue! The real truth is in the middle.
+test4.txt and test5.txt are both untrue! The real truth is in the middle. Look at the files!

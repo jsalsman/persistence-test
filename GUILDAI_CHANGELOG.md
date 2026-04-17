@@ -118,3 +118,9 @@
 *Message: "Revise post etc."*
 - **Modified**: `README.md` - *The README was updated to introduce the Guild.ai-based changelog generator and explicitly reference the `GUILDAI_CHANGELOG.md` file.*
 
+
+
+### Commit `f3219da` by James Salsman (jsalsman) at 2026-04-17T13:48:47-10:00
+*Message: "Fix links"*
+- **Modified**: `README.md` - *Fixed broken Markdown links to the changelog file.*
+

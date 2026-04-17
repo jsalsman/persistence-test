@@ -106,3 +106,9 @@
 *Message: "Import agent-package.json v5.0.2 depends on @guildai-services/guildai~github"*
 - **Added**: `agent-package.json` - *This file defines the package metadata, build scripts, and dependencies required to compile and run the repository change summarizer agent.*
 
+
+
+### Commit `7abfd8e` by James Salsman (jsalsman) at 2026-04-17T13:44:25-10:00
+*Message: "Write LinkedIn post"*
+- **Modified**: `README.md` - *Added a sponsored LinkedIn post reviewing the Guild.ai closed beta program to the README file.*
+

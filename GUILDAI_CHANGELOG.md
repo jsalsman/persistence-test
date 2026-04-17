@@ -100,3 +100,9 @@
 *Message: "Import agent-README.md v5.0.2"*
 - **Added**: `agent-README.md` - *This README file provides the documentation, prerequisites, and setup instructions for deploying the automated changelog generator agent.*
 
+
+
+### Commit `b0fe0ac` by James Salsman (jsalsman) at 2026-04-17T13:37:32-10:00
+*Message: "Import agent-package.json v5.0.2 depends on @guildai-services/guildai~github"*
+- **Added**: `agent-package.json` - *This file defines the package metadata, build scripts, and dependencies required to compile and run the repository change summarizer agent.*
+

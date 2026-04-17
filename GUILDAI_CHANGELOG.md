@@ -112,3 +112,9 @@
 *Message: "Write LinkedIn post"*
 - **Modified**: `README.md` - *Added a sponsored LinkedIn post reviewing the Guild.ai closed beta program to the README file.*
 
+
+
+### Commit `adf1deb` by James Salsman (jsalsman) at 2026-04-17T13:47:49-10:00
+*Message: "Revise post etc."*
+- **Modified**: `README.md` - *The README was updated to introduce the Guild.ai-based changelog generator and explicitly reference the `GUILDAI_CHANGELOG.md` file.*
+

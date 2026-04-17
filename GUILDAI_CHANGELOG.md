@@ -94,3 +94,9 @@
 *Message: "Import agent-code.ts v5.0.2"*
 - **Added**: `agent-code.ts` - *This file implements an automated agent that uses an LLM to parse GitHub push events and generate semantic change summaries for a repository changelog.*
 
+
+
+### Commit `3c7320c` by James Salsman (jsalsman) at 2026-04-17T13:35:45-10:00
+*Message: "Import agent-README.md v5.0.2"*
+- **Added**: `agent-README.md` - *This README file provides the documentation, prerequisites, and setup instructions for deploying the automated changelog generator agent.*
+

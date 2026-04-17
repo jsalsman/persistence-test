@@ -1,4 +1,8 @@
-# persistence-test
+## GUILDAI_CHANGELOG.md Guild.ai-based changelog generator with LLM summarization.
+
+See `agent-*` files and [GUILDAI_CHANGELOG.md]
+
+## persistence-test
 counter.txt should contain "stored state N" where N is a positive integer
 
 ## Sponsored LinkedIn Post
@@ -7,7 +11,7 @@ April 17, 2026
 
 **Full disclosure:** My access to the Guild.ai closed beta program was paid, and this review has been written in anticipation of further compensation from the Guild team. That said, getting paid to push a promising new AI agent platform to its limits is a fantastic gig, and my time inside the Guild.ai ecosystem has been a fascinating technical journey. The platform aims to provide serverless, event-driven infrastructure for LLM-powered agents, and participating as an early access builder gave me a front-row seat to both its raw potential and its current growing pains.
 
-My primary objective during this beta was to engineer an autonomous, context-aware changelog generator. I used my public repository at [https://github.com/jsalsman/persistence-test](https://github.com/jsalsman/persistence-test) as the proving ground for this experiment. The goal was to move beyond naive commit message echoing and build an agent that could wake up on a GitHub push event, parse the webhook payload, and truly understand the code changes before appending a human-readable summary to a Markdown file. 
+My primary objective during this beta was to engineer an autonomous, context-aware changelog generator. I used my public repository at [https://github.com/jsalsman/persistence-test](https://github.com/jsalsman/persistence-test) as the proving ground for this experiment. The goal was to move beyond naive commit message echoing and build an agent that could wake up on a GitHub push event, parse the webhook payload, and truly understand the code changes before appending a human-readable summary to a Markdown file called [GUILDAI_CHANGELOG.md]. 
 
 We successfully designed a robust, two-stage agentic loop to accomplish this. Instead of blindly sending a massive git patch to the LLM, the agent first performed a "planning" pass, examining the root file tree to determine which adjacent files it needed to understand the diff. It then fetched those specific dependencies before executing a second LLM call to synthesize a definitive, highly accurate summary of the modifications and additions.
 

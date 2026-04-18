@@ -9,6 +9,10 @@ counter.txt should contain "stored state N" where N is a positive integer
 
 April 17, 2026
 
+### Some of what I did for Guild.ai in the past couple months:
+
+Video accompaniment: https://www.youtube.com/watch?v=j9zAgS1hB0A
+
 **Full disclosure:** My access to the Guild.ai closed beta program was paid, and this review has been written in anticipation of further compensation from the Guild team. That said, getting paid to evaluate a promising new AI agent platform to its limits is a fantastic gig, and my time inside the Guild.ai ecosystem has been a fascinating technical journey. The platform aims to provide serverless, event-driven infrastructure for LLM-powered agents, and participating as an early access builder gave me a front-row seat to both its raw potential and its current growing pains.
 
 My primary objective during this beta was to engineer an autonomous, context-aware changelog generator. I used my public repository at [https://github.com/jsalsman/persistence-test](https://github.com/jsalsman/persistence-test) as the proving ground for this experiment. The goal was to move beyond naive commit message echoing and build an agent that could wake up on a GitHub push event, parse the webhook payload, and truly understand the code changes before appending a human-readable summary to a Markdown file called [GUILDAI_CHANGELOG.md](GUILDAI_CHANGELOG.md). 

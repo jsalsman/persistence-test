@@ -130,3 +130,9 @@
 *Message: "Wording"*
 - **Modified**: `README.md` - *Changed the word push to evaluate in the disclosure section of the sponsored post.*
 
+
+
+### Commit `da2b08d` by James Salsman (jsalsman) at 2026-04-17T15:09:55-10:00
+*Message: "add video"*
+- **Modified**: `README.md` - *The commit adds a section heading and a YouTube video link to the sponsored LinkedIn post.*
+
